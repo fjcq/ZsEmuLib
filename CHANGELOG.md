@@ -13,12 +13,15 @@
 
 - `zyJson` 模块更新到 4.1.1
 
-
 **修复**：
 
 - `雷神lsconsole操作.发送文本U()` 发送的 `Unicode文本` 为问号的问题。
 
 </details>
+
+<details>
+
+<summary>更多日志</summary>
 
 <details>
 <summary>v1.50 （2024-10-11）</summary>
@@ -44,9 +47,6 @@
 - 修复 上一个版本中 `模拟器操作类` 无法正常执行的问题。
 
 </details>
-
-<details>
-<summary>更多日志</summary>
 
 <details>
 <summary>v1.49 （2024-10-09）</summary>
