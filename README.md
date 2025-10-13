@@ -2,7 +2,7 @@
 
 [![Gitee](https://img.shields.io/badge/Gitee-项目主页-orange?logo=gitee)](https://gitee.com/fjcq/ZsEmuLib)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/release-v1.58.0.0-blue)](CHANGELOG.md)
+[![Release](https://img.shields.io/badge/release-v1.64.0.0-blue)](CHANGELOG.md)
 
 > ## 兼容雷电模拟器、雷神模拟器、MuMu模拟器，统一操作接口，助力开发与测试
 
