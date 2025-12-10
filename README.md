@@ -167,8 +167,7 @@
 
 ### 反馈渠道
 
-- **问题反馈**：[Gitee Issues](https://gitee.com/fjcq/ZsEmuLib/issues)
-- **技术交流**：欢迎通过Gitee私信联系
+- **技术交流**：QQ群 168746446
 
 ---
 
