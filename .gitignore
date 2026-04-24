@@ -10,6 +10,7 @@ bin-release/
 例程/
 adb/
 *.代码/
+代码/
 
 # Executables
 *.swf
