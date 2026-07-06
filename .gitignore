@@ -12,6 +12,10 @@ adb/
 *.代码/
 代码/
 
+# Tools
+e-packager.exe
+解包.bat
+
 # Executables
 *.swf
 *.air

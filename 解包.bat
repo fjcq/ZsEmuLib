@@ -1,1 +1,0 @@
-e-packager unpack 雷神_模拟器操作模块.e 代码\ --main-only
