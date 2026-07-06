@@ -1,0 +1,57 @@
+﻿{
+  "dependencies": [
+    {
+      "fileName": "krnln",
+      "guid": "d09f2340818511d396f6aaf844c7e325",
+      "kind": "elib",
+      "name": "系统核心支持库",
+      "path": "",
+      "reExport": false,
+      "versionText": "5.7"
+    },
+    {
+      "fileName": "spec",
+      "guid": "A512548E76954B6E92C21055517615B0",
+      "kind": "elib",
+      "name": "特殊功能支持库",
+      "path": "",
+      "reExport": false,
+      "versionText": "3.1"
+    },
+    {
+      "fileName": "EThread",
+      "guid": "5F99C1642A2F4e03850721B4F5D7C3F8",
+      "kind": "elib",
+      "name": "多线程支持库",
+      "path": "",
+      "reExport": false,
+      "versionText": "2.0"
+    },
+    {
+      "definedIds": [
+        {
+          "count": 19,
+          "start": 402900541
+        },
+        {
+          "count": 3,
+          "start": 1224984122
+        },
+        {
+          "count": 217,
+          "start": 67356001
+        }
+      ],
+      "fileName": "",
+      "guid": "",
+      "kind": "ecom",
+      "name": "zyJsonValue",
+      "path": "$zyJson.ec",
+      "reExport": true,
+      "versionText": ""
+    }
+  ],
+  "projectName": "雷神_模拟器操作",
+  "sourcePath": "E:\\止水制造\\模块\\雷神操作\\雷神_模拟器操作模块.e",
+  "versionText": "1.75"
+}
