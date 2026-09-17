@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>雷神_模拟器操作模块 · 使用帮助</title>
+  <meta name="description" content="雷神_模拟器操作模块（易语言）使用帮助系统：模块概述、快速入门、接口文档、常用场景例程、常见问题、高级技巧。">
+  <link rel="stylesheet" href="assets/css/help.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/recipes.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <button class="icon-btn only-mobile" id="btnNav" type="button" title="展开/收起导航">☰</button>
+    <a class="brand" href="#/overview">
+      <span class="brand-mark">LS</span>
+      <span class="brand-text">
+        <b>雷神_模拟器操作模块</b>
+        <i id="brandVer">使用帮助</i>
+      </span>
+    </a>
+    <div class="search-wrap">
+      <input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="搜索接口、例程、参数、常量、常见问题…（快捷键 /）">
+      <span class="search-tip" id="searchTip"></span>
+    </div>
+    <button class="icon-btn" id="btnTheme" type="button" title="切换深色/浅色">◐</button>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="帮助目录">
+      <div class="nav-filter">
+        <input id="navFilter" type="search" autocomplete="off" placeholder="筛选目录…">
+      </div>
+      <div id="navTree" class="nav-tree"></div>
+    </nav>
+
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+
+  <div class="search-panel" id="searchPanel" hidden>
+    <div class="search-head">
+      <span id="searchStat">搜索结果</span>
+      <button class="icon-btn" id="searchClose" type="button" title="关闭">✕</button>
+    </div>
+    <div class="search-body" id="searchResults"></div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <!-- 数据层：接口 / 数据类型 / 常量（由构建脚本生成） -->
+  <script src="assets/js/data/api-01.js"></script>
+  <script src="assets/js/data/api-02.js"></script>
+  <script src="assets/js/data/api-03.js"></script>
+  <script src="assets/js/data/api-04.js"></script>
+  <script src="assets/js/data/api-05.js"></script>
+  <script src="assets/js/data/api-06.js"></script>
+  <script src="assets/js/data/api-07.js"></script>
+  <script src="assets/js/data/api-08.js"></script>
+  <script src="assets/js/data/api-09.js"></script>
+  <script src="assets/js/data/api-10.js"></script>
+  <script src="assets/js/data/api-11.js"></script>
+  <script src="assets/js/data/api-12.js"></script>
+  <script src="assets/js/data/api-13.js"></script>
+  <script src="assets/js/data/api-14.js"></script>
+  <script src="assets/js/data/api-15.js"></script>
+  <script src="assets/js/data/api-16.js"></script>
+  <script src="assets/js/data/api-17.js"></script>
+  <script src="assets/js/data/types-01.js"></script>
+  <script src="assets/js/data/types-02.js"></script>
+  <script src="assets/js/data/types-03.js"></script>
+  <script src="assets/js/data/types-04.js"></script>
+  <script src="assets/js/data/constants-01.js"></script>
+  <script src="assets/js/data/constants-02.js"></script>
+  <script src="assets/js/data/constants-03.js"></script>
+  <script src="assets/js/data/constants-04.js"></script>
+  <script src="assets/js/data/constants-05.js"></script>
+
+  <!-- 程序层：语法高亮 -->
+  <script src="assets/js/epl.js"></script>
+
+  <!-- 模块元信息 -->
+  <script>
+    window.LS_META = { version: '1.77.0.0', date: '2026-07-20' };
+  </script>
+
+  <!-- 内容层：文档正文章节 -->
+  <script src="assets/js/content/overview.js"></script>
+  <script src="assets/js/content/quickstart.js"></script>
+  <script src="assets/js/content/faq.js"></script>
+  <script src="assets/js/content/advanced.js"></script>
+  <script src="assets/js/content/examples-01.js"></script>
+  <script src="assets/js/content/examples-02.js"></script>
+  <script src="assets/js/content/examples-03.js"></script>
+  <script src="assets/js/content/examples-04.js"></script>
+  <script src="assets/js/content/examples-05.js"></script>
+  <script src="assets/js/content/examples-06.js"></script>
+  <script src="assets/js/content/examples-07.js"></script>
+  <script src="assets/js/content/examples-08.js"></script>
+  <script src="assets/js/content/examples-09.js"></script>
+  <script src="assets/js/content/examples-11.js"></script>
+  <script src="assets/js/content/examples-12.js"></script>
+  <script src="assets/js/content/examples-13.js"></script>
+
+  <!-- 内容层：常用场景例程（例程区） -->
+  <script src="assets/js/content/recipes-01.js"></script>
+  <script src="assets/js/content/recipes-02.js"></script>
+  <script src="assets/js/content/recipes-03.js"></script>
+  <script src="assets/js/content/recipes-04.js"></script>
+  <script src="assets/js/content/recipes-05.js"></script>
+  <script src="assets/js/content/recipes-06.js"></script>
+
+  <!-- 程序层：页面渲染与搜索 -->
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+
+</html>

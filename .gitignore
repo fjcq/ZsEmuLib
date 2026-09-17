@@ -1,0 +1,44 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+备份/
+例程/
+adb/
+*.代码/
+代码/
+knowledge/
+
+# 本地私有内容（部署脚本、凭据等敏感信息统一存放，不入库）
+私有/
+
+# Tools
+e-packager.exe
+解包.bat
+封包.bat
+e2txt_trace.log
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+*.txt
+*.bak
+*.rar
+*.zip
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+/.vs

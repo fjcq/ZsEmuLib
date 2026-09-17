@@ -1,0 +1,100 @@
+/* 雷神_模拟器操作模块 · 帮助系统左侧导航样式（分区标题 / 分组折叠 / 目录筛选） */
+
+.sidebar {
+  overflow: auto;
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  padding: 0 0 40px;
+}
+
+/* 筛选框吸顶：目录滚动后仍可随时过滤 */
+.nav-filter {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 10px 12px 8px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-filter input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-2);
+  color: var(--text);
+  font: 12px var(--sans);
+  outline: none;
+}
+
+.nav-filter input:focus { border-color: var(--brand); }
+
+.nav-secbox { padding-bottom: 4px; }
+.nav-secbox + .nav-secbox { margin-top: 10px; border-top: 1px solid var(--border); }
+
+/* 分区标题：点击收起 / 展开整个分区，右侧箭头指示状态 */
+.nav-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 12px 4px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-sec:hover { background: var(--brand); color: var(--panel); }
+.nav-sec .caret { margin-left: 6px; font-size: 10px; }
+.nav-secbox.collapsed { padding-bottom: 0; }
+.nav-secbox.collapsed .nav-group { display: none; }
+
+.nav-group { margin-bottom: 2px; }
+
+/* 分组标题：点击折叠 / 展开，右侧箭头指示状态 */
+.nav-group > h4 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 8px 16px 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-3);
+  letter-spacing: .4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-group > h4:hover { color: var(--text); }
+.nav-group > h4 .caret { margin-left: 6px; font-size: 10px; }
+.nav-group.collapsed > h4 { padding-bottom: 8px; }
+.nav-group.collapsed .nav-item { display: none; }
+
+.nav-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 16px 5px 22px;
+  color: var(--text-2);
+  font-size: 13px;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+
+.nav-item:hover { background: var(--panel-2); color: var(--text); text-decoration: none; }
+
+.nav-item.active {
+  background: var(--brand-soft);
+  border-left-color: var(--brand);
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.nav-item .cnt { margin-left: auto; font-size: 11px; color: var(--text-3); }

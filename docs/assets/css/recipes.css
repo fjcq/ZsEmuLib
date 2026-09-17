@@ -1,0 +1,43 @@
+/* 雷神_模拟器操作模块 · 帮助系统「例程区」样式 */
+
+.recipe { padding-top: 4px; }
+
+.recipe h2 { display: flex; align-items: center; gap: 8px; }
+
+/* 难度标签 */
+.lv {
+  flex: none;
+  padding: 1px 9px;
+  border-radius: 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.lv-easy { background: rgba(26, 109, 212, .12); color: #1a6dd4; }
+.lv-mid { background: rgba(183, 121, 31, .14); color: #a2691a; }
+.lv-hard { background: rgba(217, 72, 15, .13); color: #c2400d; }
+
+html[data-theme="dark"] .lv-easy { background: rgba(88, 166, 255, .18); color: #79b8ff; }
+html[data-theme="dark"] .lv-mid { background: rgba(227, 179, 65, .18); color: #e3b341; }
+html[data-theme="dark"] .lv-hard { background: rgba(255, 138, 91, .18); color: #ff9d75; }
+
+/* 适用场景 / 注意事项 / 涉及接口 */
+.rc-block { margin: 10px 0; font-size: 13px; }
+.rc-block > b { display: block; margin-bottom: 3px; }
+.rc-scene ul, .rc-block ul { margin: 0; padding-left: 20px; }
+.rc-scene li { margin: 2px 0; color: var(--text-2); }
+.rc-block li { margin: 3px 0; }
+
+.rc-apis { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.rc-apis > b { margin: 0 4px 0 0; }
+
+.rc-apis a {
+  padding: 1px 9px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel-2);
+  font-size: 12px;
+}
+
+.rc-apis a:hover { border-color: var(--brand); text-decoration: none; }
