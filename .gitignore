@@ -15,6 +15,7 @@ knowledge/
 
 # 本地私有内容（部署脚本、凭据等敏感信息统一存放，不入库）
 私有/
+.trae/
 
 # Tools
 e-packager.exe
